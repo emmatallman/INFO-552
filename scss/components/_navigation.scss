@@ -1,3 +1,30 @@
 /* =============
     Navigation
 ============= */
+
+nav{
+
+    background-color: var(--greenblue);
+}
+
+// green link
+
+
+
+    .greenlink:link, a.greenlink:visited{
+        color: var(--green);
+        text-decoration: none;
+    }
+    .greenlink:hover, a.greenlink:active{
+        color: var(--lightgreen);
+    }    
+
+// black link for title
+    .blacklink:link, a.blacklink:visited{
+        color: var(--black);
+        text-decoration: none;
+    }
+    .blacklink:hover, a.blacklink:active{
+        color: var(--darkgray);
+    }    
+    

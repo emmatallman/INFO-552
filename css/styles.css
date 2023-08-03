@@ -338,6 +338,24 @@ template {
 /* =============
     Base
 ============= */
+body {
+  background-color: var(--gray);
+}
+
+.content-grid {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 16px auto 16px;
+  grid-template-columns: 16px auto 16px;
+      grid-template-areas: ". content .";
+}
+.content-grid .content-grid-item {
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  background-color: var(--silver);
+  grid-area: content;
+}
+
 /* =============
     Typography
 ============= */
@@ -367,15 +385,45 @@ textarea {
 /* =============
     Navigation
 ============= */
+nav {
+  background-color: var(--greenblue);
+}
+
+.greenlink:link, a.greenlink:visited {
+  color: var(--green);
+  text-decoration: none;
+}
+
+.greenlink:hover, a.greenlink:active {
+  color: var(--lightgreen);
+}
+
+.blacklink:link, a.blacklink:visited {
+  color: var(--black);
+  text-decoration: none;
+}
+
+.blacklink:hover, a.blacklink:active {
+  color: var(--darkgray);
+}
+
 /* =============
     Header
 ============= */
 /* =============
     Footer
 ============= */
+footer {
+  background-color: var(--bluegray);
+}
+
 /* =============
    About Me
 ============= */
+#aboutme-left img {
+  width: 100%;
+}
+
 /* =============
    Associations
 ============= */
@@ -385,9 +433,21 @@ textarea {
 /* =============
     Index
 ============= */
+#index a:link, #index a:visited {
+  color: var(--green);
+  text-decoration: none;
+}
+#index a:hover, #index a:active {
+  color: var(--lightgreen);
+}
+
 /* =============
     Projects
 ============= */
+#projects-left img {
+  width: 100%;
+}
+
 /* =============
     Resume
 ============= */

@@ -1,3 +1,14 @@
 /* =============
     Index
 ============= */
+
+#index{
+
+    a:link, a:visited{
+        color: var(--green);
+        text-decoration: none;
+    }
+    a:hover, a:active{
+        color: var(--lightgreen);
+    }
+}
