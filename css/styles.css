@@ -378,9 +378,32 @@ body {
   }
 }
 
+#index-right img {
+  width: 150px;
+}
+
 /* =============
     Typography
 ============= */
+h1, h2, h3, h4, h5 {
+  padding: 0;
+  margin: 0;
+}
+
+p {
+  padding: 0;
+  margin: 0;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style: none;
+}
+
 /* =============
     Buttons
 ============= */
@@ -432,6 +455,14 @@ nav {
 /* =============
     Header
 ============= */
+header {
+  padding: 48px 0;
+}
+
+p {
+  padding: 16px;
+}
+
 /* =============
     Footer
 ============= */
@@ -442,12 +473,44 @@ footer {
 /* =============
    About Me
 ============= */
+h1 {
+  padding-top: 24px;
+}
+
+p {
+  padding: 16px;
+}
+
 /* =============
    Associations
 ============= */
+h1 {
+  padding-top: 24px;
+}
+
+p {
+  padding: 16px;
+}
+
+#associations-list {
+  padding-left: 16px;
+  padding-bottom: 16px;
+}
+#associations-list li {
+  list-style-type: circle;
+}
+
 /* =============
  Contact
 ============= */
+h1 {
+  padding-top: 24px;
+}
+
+p {
+  padding: 16px;
+}
+
 /* =============
     Index
 ============= */
@@ -459,8 +522,17 @@ footer {
   color: var(--lightgreen);
 }
 
+#index-left h1 {
+  padding-bottom: 24px;
+}
+#index-left p {
+  padding: 0 16px;
+  padding-bottom: 24px;
+}
+
 #index-right img {
   width: 100%;
+  padding-bottom: 16px;
 }
 
 /* =============
@@ -468,8 +540,46 @@ footer {
 ============= */
 #projects-left img {
   width: 100%;
+  padding: 16px;
+}
+
+h1 {
+  padding-top: 24px;
+}
+
+h2 {
+  padding-top: 16px;
+}
+
+h3 {
+  padding-top: 16px;
+}
+
+p {
+  padding: 16px;
+}
+
+#course-list {
+  padding-left: 16px;
+}
+#course-list li {
+  list-style-type: circle;
+}
+
+#course-in-progress {
+  padding-left: 16px;
+}
+#course-in-progress li {
+  list-style-type: circle;
 }
 
 /* =============
     Resume
 ============= */
+h1 {
+  padding-top: 24px;
+}
+
+p {
+  padding: 16px;
+}
