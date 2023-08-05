@@ -644,14 +644,34 @@ p {
 ============= */
 h1 {
   padding-top: 24px;
+  text-align: center;
+}
+
+h3 {
+  text-align: center;
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+h4 {
+  text-align: left;
+  padding-top: 16px;
+  padding-bottom: 16px;
 }
 
 p {
   padding: 16px;
+  text-align: left;
 }
 
 #resume {
-  text-align: left;
   font-size: 1rem;
   letter-spacing: 1px;
+}
+
+.resume-list {
+  padding-left: 16px;
+}
+.resume-list li {
+  list-style-type: circle;
 }
