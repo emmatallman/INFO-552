@@ -339,7 +339,7 @@ template {
     Base
 ============= */
 body {
-  background-color: var(--gray);
+  background-color: var(--silver);
 }
 
 .content-grid {
@@ -436,16 +436,16 @@ textarea {
     Navigation
 ============= */
 nav {
-  background-color: var(--greenblue);
+  background-color: var(--gray);
 }
 
 .greenlink:link, a.greenlink:visited {
-  color: var(--green);
+  color: var(--black);
   text-decoration: none;
 }
 
 .greenlink:hover, a.greenlink:active {
-  color: var(--lightgreen);
+  color: var(--gray);
 }
 
 .blacklink:link, a.blacklink:visited {
@@ -501,6 +501,10 @@ p {
 #aboutme #aboutme-left img {
   width: 15.625rem;
   border: 2px var(--black) solid;
+}
+
+#picture {
+  margin-left: 40%;
 }
 
 /* =============
@@ -603,6 +607,7 @@ p {
 }
 #course-list li {
   list-style-type: circle;
+  letter-spacing: 1px;
 }
 
 #course-in-progress {
@@ -610,6 +615,7 @@ p {
 }
 #course-in-progress li {
   list-style-type: circle;
+  letter-spacing: 1px;
 }
 
 #projects {

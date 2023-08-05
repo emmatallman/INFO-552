@@ -10,6 +10,7 @@ p{
    padding: 16px;
 }
 #aboutme {
+ 
 
 #aboutme-right{
 font-size: rem-calc(16);
@@ -21,7 +22,13 @@ font-size: rem-calc(16);
    img{
       width: rem-calc(250px);
       border: 2px var(--black) solid;
+
    }
 
+
 }
+}
+#picture{
+margin-left: 40%;
+
 }

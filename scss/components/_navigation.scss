@@ -4,7 +4,7 @@
 
 nav{
 
-    background-color: var(--greenblue);
+    background-color: var(--gray);
 }
 
 // green link
@@ -12,11 +12,11 @@ nav{
 
 
     .greenlink:link, a.greenlink:visited{
-        color: var(--green);
+        color: var(--black);
         text-decoration: none;
     }
     .greenlink:hover, a.greenlink:active{
-        color: var(--lightgreen);
+        color: var(--gray);
     }    
 
 // black link for title
