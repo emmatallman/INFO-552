@@ -362,6 +362,22 @@ body {
   grid-area: content;
 }
 
+@media (min-width: 1024px) {
+  #main-content-grid {
+    display: -ms-grid;
+    display: grid;
+    -ms-grid-columns: 60% 16px auto;
+    grid-template-columns: 60% auto;
+    gap: 16px;
+  }
+}
+@media (min-width: 1200px) {
+  #main-content-grid {
+    -ms-grid-columns: 70% auto;
+    grid-template-columns: 70% auto;
+  }
+}
+
 /* =============
     Typography
 ============= */
@@ -426,10 +442,6 @@ footer {
 /* =============
    About Me
 ============= */
-#aboutme-left img {
-  width: 100%;
-}
-
 /* =============
    Associations
 ============= */
@@ -445,6 +457,10 @@ footer {
 }
 #index a:hover, #index a:active {
   color: var(--lightgreen);
+}
+
+#index-right img {
+  width: 100%;
 }
 
 /* =============
