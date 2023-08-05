@@ -21,13 +21,16 @@
         padding: 0 16px;
         padding-bottom: 24px;
     }
+    text-align: left;
+    font-size: rem-calc(16);
+    letter-spacing: 1px;
 
 }
 
 #index-right{
     img{
        width: 100%;
-       padding-bottom: 16px;
+       border: 2px var(--black) solid;
     }
  }
  

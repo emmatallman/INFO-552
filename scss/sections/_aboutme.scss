@@ -9,3 +9,19 @@ h1{
 p{
    padding: 16px;
 }
+#aboutme {
+
+#aboutme-right{
+font-size: rem-calc(16);
+    letter-spacing: 1px;
+}
+#aboutme-left{
+   margin:auto;
+   padding: auto;
+   img{
+      width: rem-calc(250px);
+      border: 2px var(--black) solid;
+   }
+
+}
+}

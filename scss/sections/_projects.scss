@@ -37,3 +37,30 @@
         list-style-type: circle;
     }
  }
+ #projects{
+   text-align: left;
+   font-size: rem-calc(16);
+   letter-spacing: 1px;
+ }
+
+ #ceramics-images{
+ 
+  display:flex;
+  justify-content: space-evenly;
+  #cups{
+   width: rem-calc(250);
+
+  }
+  #tray{
+   width: rem-calc(250);
+ 
+  }
+  #vase{
+   width: rem-calc(250);
+
+  }
+  #mosaic{
+   width: rem-calc(250);
+  
+  }
+ }

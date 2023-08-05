@@ -490,6 +490,19 @@ p {
   padding: 16px;
 }
 
+#aboutme #aboutme-right {
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+#aboutme #aboutme-left {
+  margin: auto;
+  padding: auto;
+}
+#aboutme #aboutme-left img {
+  width: 15.625rem;
+  border: 2px var(--black) solid;
+}
+
 /* =============
    Associations
 ============= */
@@ -509,6 +522,12 @@ p {
   list-style-type: circle;
 }
 
+#associations {
+  text-align: left;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
 /* =============
  Contact
 ============= */
@@ -518,6 +537,12 @@ h1 {
 
 p {
   padding: 16px;
+}
+
+#contact {
+  text-align: left;
+  font-size: 1rem;
+  letter-spacing: 1px;
 }
 
 /* =============
@@ -531,6 +556,11 @@ p {
   color: var(--lightgreen);
 }
 
+#index-left {
+  text-align: left;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
 #index-left h1 {
   padding-bottom: 24px;
 }
@@ -541,7 +571,7 @@ p {
 
 #index-right img {
   width: 100%;
-  padding-bottom: 16px;
+  border: 2px var(--black) solid;
 }
 
 /* =============
@@ -582,6 +612,33 @@ p {
   list-style-type: circle;
 }
 
+#projects {
+  text-align: left;
+  font-size: 1rem;
+  letter-spacing: 1px;
+}
+
+#ceramics-images {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+#ceramics-images #cups {
+  width: 15.625rem;
+}
+#ceramics-images #tray {
+  width: 15.625rem;
+}
+#ceramics-images #vase {
+  width: 15.625rem;
+}
+#ceramics-images #mosaic {
+  width: 15.625rem;
+}
+
 /* =============
     Resume
 ============= */
@@ -591,4 +648,10 @@ h1 {
 
 p {
   padding: 16px;
+}
+
+#resume {
+  text-align: left;
+  font-size: 1rem;
+  letter-spacing: 1px;
 }
