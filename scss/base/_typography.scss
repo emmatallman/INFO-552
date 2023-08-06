@@ -2,12 +2,16 @@
     Typography
 ============= */
 
-//font-family: 'Poppins', sans-serif;
+//font-family: 'Borel&family', 'Karla';
 
 body{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 300;
+    font-family: 'Borel&family', 'Karla';
+    font-weight: 400;
     color: var(--brown);
+}
+
+#title{
+    font-family: 'Borel&family';
 }
 
 h1,h2,h3,h4,h5{
