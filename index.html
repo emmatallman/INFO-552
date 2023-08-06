@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/00da6a9c00.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
@@ -16,16 +17,27 @@
 
         <header>
             <a href="index.html" class="blacklink"><h1>Emma Tallman</h1></a>  
-            <p>Masters of Library and Information Sciences Student Portfolio</p>
-        <nav>
-            <ul>
-                <li><a href="aboutme.html" class="greenlink">About Me</a></li>
-                <li><a href="resume.html" class="greenlink">Resume</a></li>
-                <li><a href="projects.html" class="greenlink">Projects</a></li>
-                <li><a href="associations.html" class="greenlink" >Associations</a></li>
-                <li><a href="contact.html" class="greenlink">Contact</a></li>
-            </ul>
-        </nav>
+            <h5>Masters of Library and Information Sciences Student Portfolio</h2>
+
+            <section id="nav-container">
+                <section id="burger-container">
+                    <button id="burger-btn">
+                        <i class="fa-solid fa-bars"></i>MENU
+                    </button>
+                </section>
+                <nav id="main-menu">
+                    <ul>
+                        <li><a href="aboutme.html" class="greenlink">About Me</a></li>
+                        <li><a href="resume.html" class="greenlink">Resume</a></li>
+                        <li><a href="projects.html" class="greenlink">Projects</a></li>
+                        <li><a href="associations.html" class="greenlink" >Associations</a></li>
+                        <li><a href="contact.html" class="greenlink">Contact</a></li>
+                    </ul>
+                </nav>
+
+            </section>
+
+
         </header>
      <main class="content-grid" id="index">
     <div class="content-grid-item">
@@ -44,6 +56,9 @@
         </div>
      </div>
     </main>  
+    <footer>
+        <p id="footer">	&#169 2023 Emma Tallman</p>
+    </footer>
 
     <script src="js/scripts-dist.js"></script>  
 </body>

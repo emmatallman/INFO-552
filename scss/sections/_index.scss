@@ -2,16 +2,7 @@
     Index
 ============= */
 
-#index{
 
-    a:link, a:visited{
-        color: var(--green);
-        text-decoration: none;
-    }
-    a:hover, a:active{
-        color: var(--lightgreen);
-    }
-}
 
 #index-left{
     h1{
@@ -30,7 +21,7 @@
 #index-right{
 img{
        width: 100%;
-       border: 2px var(--black) solid;
+       border: 2px var(--tan) solid;
     }
  }
  

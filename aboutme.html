@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://kit.fontawesome.com/00da6a9c00.js" crossorigin="anonymous"></script>
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap" rel="stylesheet">
@@ -13,22 +14,34 @@
 
 <body>
 
-<header>
-    <a href="index.html" class="blacklink"><h1>Emma Tallman</h1></a>  
-    <p>Masters of Library and Information Sciences Student Portfolio</p>
-<nav>
-    <ul>
-        <li><a href="aboutme.html" class="greenlink">About Me</a></li>
-        <li><a href="resume.html" class="greenlink">Resume</a></li>
-        <li><a href="projects.html" class="greenlink">Projects</a></li>
-        <li><a href="associations.html" class="greenlink">Associations</a></li>
-        <li><a href="contact.html" class="greenlink">Contact</a></li>
-    </ul>
-</nav>
-</header>
+
+        <header>
+            <a href="index.html" class="blacklink"><h1>Emma Tallman</h1></a>  
+            <h5>Masters of Library and Information Sciences Student Portfolio</h2>
+
+            <section id="nav-container">
+                <section id="burger-container">
+                    <button id="burger-btn">
+                        <i class="fa-solid fa-bars"></i>MENU
+                    </button>
+                </section>
+                <nav id="main-menu">
+                    <ul>
+                        <li><a href="aboutme.html" class="greenlink">About Me</a></li>
+                        <li><a href="resume.html" class="greenlink">Resume</a></li>
+                        <li><a href="projects.html" class="greenlink">Projects</a></li>
+                        <li><a href="associations.html" class="greenlink" >Associations</a></li>
+                        <li><a href="contact.html" class="greenlink">Contact</a></li>
+                    </ul>
+                </nav>
+
+            </section>
+
+
+        </header>
 
 <main class="content-grid" id="aboutme">
-    <div class="content-grid-item">
+    <div class="content-grid-item" id="main-content-grid">
 <section id="aboutme-right"> 
 <h1>About Me</h1>
 <p>My name is Emma Tallman and I am a student in my fourth quarter of Drexel University’s masters of library and information sciences program. In addition to being a student, I am a nanny to a three year old, and an intern at the Collingswood Public Library. I live with my cat named Maxine, and love to read, listen to music, and take day trips to the beach in my downtime. I’m also very interested in art, both appreciating it and creating it, and have always loved different mediums such as painting and ceramics. </p>
@@ -38,6 +51,10 @@
 </section>
     </div>
 </main>
+<footer>
+    <p id="footer">	&#169 2023 Emma Tallman</p>
+</footer>
+
 
 <script src="js/scripts-dist.js"></script>
     

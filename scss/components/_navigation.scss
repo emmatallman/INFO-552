@@ -4,27 +4,67 @@
 
 nav{
 
-    background-color: var(--gray);
+    background-color: var(--almond);
+    display: none;
+
+    @include lg{
+        display: block;
+        width: 100%;
+
+    }
+
+    ul{
+
+        @include lg{
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            width: 100%;
+            border-bottom: 2px solid var(--tan);
+            
+        }
+
+        li{
+            padding: 0 0 16px 24px;
+            text-align: left;
+            @include lg{
+                padding-left: 0;
+            }
+            a{
+ 
+                font-size: rem-calc(16);
+                margin-bottom: 16px;
+
+            }
+        }
+    }
+}
+.show-menu{
+    display: block !important;
 }
 
-// green link
+html{
+    scroll-behavior: smooth;
+}
+
+// links for all pages
 
 
 
     .greenlink:link, a.greenlink:visited{
-        color: var(--black);
+        color: var(--tan);
         text-decoration: none;
     }
     .greenlink:hover, a.greenlink:active{
-        color: var(--gray);
+        color: var(--brown);
     }    
 
-// black link for title
+//link for title
     .blacklink:link, a.blacklink:visited{
-        color: var(--black);
+        color: var(--brown);
         text-decoration: none;
     }
     .blacklink:hover, a.blacklink:active{
-        color: var(--darkgray);
+        color: var(--tan);
     }    
     

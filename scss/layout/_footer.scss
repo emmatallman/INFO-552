@@ -2,5 +2,9 @@
     Footer
 ============= */
 footer{
-    background-color: var(--bluegray);
+    background-color: var(--almond);
+}
+#footer{
+    text-align: center;
+    font-size: rem-calc(12px);    
 }

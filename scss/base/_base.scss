@@ -2,7 +2,7 @@
     Base
 ============= */
 body{
-    background-color: var(--silver);
+    background-color: var(--backgroundwhite);
 }
 
 .content-grid{ 
@@ -15,12 +15,14 @@ body{
     }
 
     .content-grid-item{
-    background-color: var(--silver);
+    background-color: var(--cream);
     grid-area: content;
     }
 }
 
 #main-content-grid {
+    margin-top: 200px;
+    margin-bottom: 100px;
     @include lg{
         display: grid;
         grid-template-columns: 60% auto;
@@ -39,3 +41,4 @@ body{
         width: 150px;
     }
 }
+
